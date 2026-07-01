@@ -1,0 +1,19 @@
+# متغيرات البيئة لـ Render - جاهزة للنسخ واللصق
+# استبدل القيم بين < > بالقيم الفعلية
+
+NODE_ENV=production
+PORT=3000
+DATABASE_URL=<paste_your_database_url_here>
+JWT_SECRET=<paste_your_jwt_secret_here>
+FRONTEND_URL=https://eilut.github.io/pig/
+DB_NAME=pig
+DB_USER=pig_user
+DB_PASSWORD=<paste_your_db_password>
+DB_HOST=<paste_your_db_host>
+DB_PORT=5432
+
+# مثال على JWT_SECRET يمكنك استخدامه:
+# JWT_SECRET=pig-super-secret-jwt-key-2024-secure-random-string-123456789
+
+# لإنشاء JWT_SECRET جديد:
+# openssl rand -base64 32
